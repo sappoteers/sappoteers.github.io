@@ -15,6 +15,8 @@ author = 'Ankit Bhandekar'
 
 extensions = []
 
+source_dir = 'source'
+
 templates_path = ['_templates']
 exclude_patterns = []
 
