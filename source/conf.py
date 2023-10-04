@@ -34,6 +34,7 @@ html_css_files = [
 ]
 html_title = "THE SAPPOTEERS"
 html_logo = '_static/logo.png'
+html_baseurl = 'https://sappoteers.github.io/'
 html_show_sourcelink = False
 html_theme_options = {
     "logo": {
