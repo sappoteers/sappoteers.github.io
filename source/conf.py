@@ -27,9 +27,9 @@ import pydata_sphinx_theme
 
 html_theme = "pydata_sphinx_theme"
 html_static_path = ['_static']
-# html_css_files = [
-#     "basic.css",
-# ]
+html_css_files = [
+    "basic.css",
+]
 html_title = "THE SAPPOTEERS"
 html_logo = '_static/logo.png'
 html_baseurl = 'https://sappoteers.github.io/'
@@ -43,5 +43,5 @@ html_theme_options = {
     "footer_end": ["combined_footer.html"],
 }
 
-# def setup(app):
-#     app.add_css_file('basic.css')
+def setup(app):
+    app.add_css_file('basic.css')
