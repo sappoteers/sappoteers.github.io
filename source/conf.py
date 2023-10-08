@@ -13,6 +13,11 @@ author = 'Ankit Bhandekar'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath("."))
+
 extensions = []
 
 source_dir = 'source'
@@ -27,6 +32,7 @@ import pydata_sphinx_theme
 
 html_theme = "pydata_sphinx_theme"
 html_static_path = ['_static']
+
 html_css_files = [
     "basic.css",
 ]
@@ -45,3 +51,5 @@ html_theme_options = {
 
 def setup(app):
     app.add_css_file('basic.css')
+
+
